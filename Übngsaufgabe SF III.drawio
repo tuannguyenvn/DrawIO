@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-05T07:29:30.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="C5m4NipFneOJfmPIAbih" version="14.8.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-05T07:48:12.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="O7dtAPPEWWTGgYr4cDkq" version="14.8.3" type="github">
   <diagram id="zpWr9lhcz-H4dS4IHWAz" name="Page-1">
     <mxGraphModel dx="1038" dy="1725" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,9 +85,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AT9KVZJsBNH9YSO-psuh-26" value="Status einer Rechnung" style="swimlane;childLayout=stackLayout;horizontal=1;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;strokeColor=none;stackBorder=10;stackSpacing=-12;resizable=1;align=center;points=[];fontColor=#000000;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="265" y="-29" width="218" height="100" as="geometry" />
+          <mxGeometry x="265" y="-27" width="218" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AT9KVZJsBNH9YSO-psuh-28" value="storniert " style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AT9KVZJsBNH9YSO-psuh-26">
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-28" value="storniert " style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="AT9KVZJsBNH9YSO-psuh-26">
           <mxGeometry x="10" y="33" width="100" height="57" as="geometry" />
         </mxCell>
         <mxCell id="AT9KVZJsBNH9YSO-psuh-29" value="freigegeben " style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="AT9KVZJsBNH9YSO-psuh-26">
@@ -102,8 +102,26 @@
         <mxCell id="AT9KVZJsBNH9YSO-psuh-36" value="bezahlt " style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="560" y="5" width="110" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="AT9KVZJsBNH9YSO-psuh-37" value=" gutgeschrieben" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-37" value=" gutgeschrieben" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="659" y="5" width="121" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-38" value="RE&lt;span style=&quot;font-weight: normal&quot;&gt;05072021-00001&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="179" y="64" width="91" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-40" value="ST&lt;span style=&quot;font-weight: 400&quot;&gt;05072021-00001&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fontStyle=1;fontSize=9;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="271" y="64" width="89" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-41" value="RE...." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="390" y="64" width="32" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-42" value="RE...." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="486" y="64" width="32" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-43" value="RE...." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fontStyle=1;fontSize=9;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="587" y="64" width="32" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="AT9KVZJsBNH9YSO-psuh-44" value="GT&lt;span style=&quot;font-weight: 400&quot;&gt;05072021-00001&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fontStyle=1;fontSize=9;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="665" y="64" width="91" height="14" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
