@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-07T09:40:49.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JdhW_80c3B7c6_TwIFwm" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-07T09:43:07.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="Xqfb6-OVVKDHI_5eRWRX" version="14.8.4" type="github">
   <diagram id="F96oW3K7lQKmsyeZBhO4" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,7 +54,7 @@
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="DcMIOPFHpR5jHwBzN2j8-41" target="DcMIOPFHpR5jHwBzN2j8-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DcMIOPFHpR5jHwBzN2j8-41" value="intern Account" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="DcMIOPFHpR5jHwBzN2j8-41" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Haupt-Account&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="30" y="240" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=1;" edge="1" parent="1" source="DcMIOPFHpR5jHwBzN2j8-42" target="DcMIOPFHpR5jHwBzN2j8-41">
@@ -95,7 +95,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-48" value="Kontakt - Records" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="90" y="480" width="150" height="90" as="geometry" />
+          <mxGeometry x="103" y="462" width="150" height="90" as="geometry" />
         </mxCell>
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-49" value="" style="shape=partialRectangle;html=1;whiteSpace=wrap;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;top=0;left=0;bottom=0;right=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DcMIOPFHpR5jHwBzN2j8-48">
           <mxGeometry y="30" width="150" height="20" as="geometry" />
