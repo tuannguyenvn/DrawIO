@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-09T07:11:07.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="EDgFdLefRr2yMiJmCE1u" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-09T07:17:04.379Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="UxLVTedmX8XfzeNK01Pf" version="14.8.4" type="github">
   <diagram id="F96oW3K7lQKmsyeZBhO4" name="Page-1">
     <mxGraphModel dx="1038" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,13 +54,13 @@
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=ERmany;endFill=0;" parent="1" source="DcMIOPFHpR5jHwBzN2j8-41" target="DcMIOPFHpR5jHwBzN2j8-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DcMIOPFHpR5jHwBzN2j8-41" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Haupt-Account&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="DcMIOPFHpR5jHwBzN2j8-41" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 14.6667px&quot;&gt;Haupt-Account&lt;br&gt;(intern)&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="30" y="240" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERzeroToMany;endFill=1;" parent="1" source="DcMIOPFHpR5jHwBzN2j8-42" target="DcMIOPFHpR5jHwBzN2j8-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DcMIOPFHpR5jHwBzN2j8-42" value="Parent Account" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="DcMIOPFHpR5jHwBzN2j8-42" value="Parent Account&lt;br&gt;(intern)" style="whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="35" y="120" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="DcMIOPFHpR5jHwBzN2j8-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.887;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERzeroToMany;endFill=1;" parent="1" source="DcMIOPFHpR5jHwBzN2j8-43" target="DcMIOPFHpR5jHwBzN2j8-62" edge="1">
