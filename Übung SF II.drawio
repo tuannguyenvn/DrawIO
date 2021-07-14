@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2021-07-14T06:39:11.609Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.8.5" etag="1B5z0Kg0KaZIQgSxrzT1" type="github"><diagram id="0gH1CCH9cnVJjO2RBHAu">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-14T07:19:04.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="FTu27eS7gqSA08dHlSOv" version="14.8.5" type="github">
+  <diagram id="0gH1CCH9cnVJjO2RBHAu" name="Page-1">
+    <mxGraphModel dx="1038" dy="500" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-1" value="Oppo" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="250" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-2" value="Auftrag" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="433" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-4" value="Account" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-5" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="eNt2mjOIF3JbGj7Xw9-h-4" target="eNt2mjOIF3JbGj7Xw9-h-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="sourcePoint" />
+            <mxPoint x="460" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-6" value="Vertrag" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="411" y="247" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-8" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eNt2mjOIF3JbGj7Xw9-h-1" target="eNt2mjOIF3JbGj7Xw9-h-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="sourcePoint" />
+            <mxPoint x="460" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-11" value="Button" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#1FE1FF;" vertex="1" connectable="0" parent="eNt2mjOIF3JbGj7Xw9-h-8">
+          <mxGeometry x="0.0622" y="3" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="eNt2mjOIF3JbGj7Xw9-h-1" target="eNt2mjOIF3JbGj7Xw9-h-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="sourcePoint" />
+            <mxPoint x="460" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-10" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="eNt2mjOIF3JbGj7Xw9-h-6">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="540" y="100" as="sourcePoint" />
+            <mxPoint x="433" y="112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eNt2mjOIF3JbGj7Xw9-h-12" value="von Opps mit gleichen Season" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="180" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
