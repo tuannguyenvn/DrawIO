@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T15:03:01.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="kpuVac1SfD0dF2LMkdRY" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T15:05:02.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="U9ZTgeC81vQymPBUTJD8" version="15.5.2" type="github">
   <diagram id="0J075e4gFL0NOJCr7qca" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry x="540" y="430" width="240" height="230" as="geometry" />
         </mxCell>
         <mxCell id="IbXW7P1orKbQSauzTD7P-15" value="Cypress&lt;br&gt;Test Runner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="355.5" y="260" width="120" height="80" as="geometry" />
+          <mxGeometry x="365.5" y="300" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IbXW7P1orKbQSauzTD7P-16" value="&lt;span&gt;Schritten-Implementierung&lt;br&gt;(.js Datei)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="114" y="460" width="160" height="30" as="geometry" />
