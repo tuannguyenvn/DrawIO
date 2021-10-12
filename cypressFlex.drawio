@@ -1,1 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T14:42:11.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" version="15.5.2" etag="Tp_hwEYonXDAM0RvfWgw" type="github"><diagram id="0J075e4gFL0NOJCr7qca">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-12T14:49:31.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.71 Safari/537.36" etag="RKP7Rs5uOb7jplO-nrxK" version="15.5.2" type="github">
+  <diagram id="0J075e4gFL0NOJCr7qca" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IbXW7P1orKbQSauzTD7P-1" value="Cypress&lt;br&gt;Test Runner" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IbXW7P1orKbQSauzTD7P-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="250" width="320" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IbXW7P1orKbQSauzTD7P-3" value="Szenario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="290" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IbXW7P1orKbQSauzTD7P-4" value="&lt;span&gt;Schritten-Implementierung&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IbXW7P1orKbQSauzTD7P-5" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6&quot;&gt;Funktionalität&lt;/span&gt;:&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;Office&amp;nbsp;-&amp;nbsp;Login&lt;/span&gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Szenario&lt;/span&gt;:&lt;span style=&quot;color: #ce9178&quot;&gt;&amp;nbsp;Anmeldung&amp;nbsp;mit&amp;nbsp;gültigem&amp;nbsp;Benutzernamen&amp;nbsp;und&amp;nbsp;Passwort&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Angenommen&amp;nbsp;&lt;/span&gt;die&amp;nbsp;Loginseite&amp;nbsp;ist&amp;nbsp;geöffnet&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Wenn&amp;nbsp;&lt;/span&gt;ich&amp;nbsp;den&amp;nbsp;Benutzername&amp;nbsp;eingebe&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Und&amp;nbsp;&lt;/span&gt;ich&amp;nbsp;das&amp;nbsp;Passwort&amp;nbsp;eingebe&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Und&amp;nbsp;&lt;/span&gt;ich&amp;nbsp;auf&amp;nbsp;den&amp;nbsp;Button&amp;nbsp;&lt;span style=&quot;color: #ce9178&quot;&gt;&quot;Anmelden&quot;&lt;/span&gt;&amp;nbsp;drücke&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;color: #569cd6&quot;&gt;Dann&amp;nbsp;&lt;/span&gt;öffnet&amp;nbsp;sich&amp;nbsp;die&amp;nbsp;Dashboardseite&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="360" width="490" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
