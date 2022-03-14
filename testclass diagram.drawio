@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T14:05:20.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="D9W7gYTO0Z4xPLPLDLEj" version="15.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T14:09:27.641Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="TFxIiOtkM3btRfhq9MLj" version="15.5.5" type="github" pages="2">
   <diagram id="t39VvCmIAFpxMgid8PSV" name="Class Diagram">
     <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -144,8 +144,8 @@
             <mxPoint x="55" y="588" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j5hs_HU87m_Mm4rnSKIq-0" value="Build" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="6klo0AG0OtQpHG3wAC0B-0">
-          <mxGeometry x="-19" y="93" width="60" height="30" as="geometry" />
+        <mxCell id="j5hs_HU87m_Mm4rnSKIq-3" value="auslösen" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=0;" vertex="1" parent="6klo0AG0OtQpHG3wAC0B-0">
+          <mxGeometry x="-18" y="87" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-1" value="BaseTestWithUi-CoDatabaseTest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry x="180" y="60" width="100" height="210" as="geometry" />
@@ -155,7 +155,7 @@
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-14" value="SetupDatabase()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="6klo0AG0OtQpHG3wAC0B-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="58" y="82" as="sourcePoint" />
+            <mxPoint x="55" y="82" as="sourcePoint" />
             <mxPoint x="167.5" y="82" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -204,16 +204,16 @@
             <mxPoint x="90" y="551" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Master&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Build&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="10" y="101" as="sourcePoint" />
             <mxPoint x="75" y="101" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-3" value="Testdatenbank prüfen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.2;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1" target="6klo0AG0OtQpHG3wAC0B-4">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-3" value="Build ausführen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.2;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="85" y="120" as="sourcePoint" />
-            <mxPoint x="220" y="120" as="targetPoint" />
+            <mxPoint x="85" y="121" as="sourcePoint" />
+            <mxPoint x="227" y="120.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-27" value="Testfälle ausführen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
@@ -232,6 +232,12 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="605" y="505" as="sourcePoint" />
             <mxPoint x="729.5" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j5hs_HU87m_Mm4rnSKIq-1" value="Testdatenbank prüfen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.2;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="236" y="178" as="sourcePoint" />
+            <mxPoint x="348" y="178.03999999999996" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
