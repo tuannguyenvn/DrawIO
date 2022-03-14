@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T10:26:44.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="5gtEp9BCoh8O13smksWf" version="15.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T10:27:51.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="sCk9ynPKmKn38GQdPGfn" version="15.5.5" type="github" pages="2">
   <diagram id="t39VvCmIAFpxMgid8PSV" name="Class Diagram">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,7 +163,7 @@
             <mxPoint x="60" y="83" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-18" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-18" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 11px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(255 , 255 , 255) ; display: inline ; float: none&quot;&gt;Ergebnis zurückgeben&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="225" y="237" as="sourcePoint" />
             <mxPoint x="85" y="237" as="targetPoint" />
