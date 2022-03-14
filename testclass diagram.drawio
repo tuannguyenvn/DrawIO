@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-03-08T16:34:08.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="phnKiytU1a3ub06QkcCt" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-14T08:24:39.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="W7Mxq7Jj4xGoNzjayY2m" version="15.5.5" type="github">
   <diagram id="t39VvCmIAFpxMgid8PSV" name="Page-1">
-    <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="I0ulhQKgloeuxJobAmPa-14" value="VorgangAnlegenTests" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="250" width="140" height="52" as="geometry" />
+          <mxGeometry x="240" y="250" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-17" value="  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-14">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-18" value="FlaUiTestsBase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="414" y="120" width="140" height="78" as="geometry" />
+          <mxGeometry x="274" y="50" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-19" value="+ SetUp()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-18">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -19,14 +19,14 @@
         <mxCell id="I0ulhQKgloeuxJobAmPa-20" value="+ TearDown()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-18">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I0ulhQKgloeuxJobAmPa-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-14" target="I0ulhQKgloeuxJobAmPa-19">
+        <mxCell id="I0ulhQKgloeuxJobAmPa-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.271;entryY=1.115;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="330" y="360" as="sourcePoint" />
-            <mxPoint x="490" y="360" as="targetPoint" />
+            <mxPoint x="339" y="250" as="sourcePoint" />
+            <mxPoint x="341.94000000000005" y="130.99" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-23" value="VorgangView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="20" y="400" width="190" height="78" as="geometry" />
+          <mxGeometry x="60" y="390" width="190" height="78" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-24" value="+ void CreateVorgang()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-23">
           <mxGeometry y="26" width="190" height="26" as="geometry" />
@@ -34,29 +34,17 @@
         <mxCell id="I0ulhQKgloeuxJobAmPa-25" value="+ void AddNeuePosition()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-23">
           <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I0ulhQKgloeuxJobAmPa-27" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-17" target="I0ulhQKgloeuxJobAmPa-23">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="230" y="289" as="sourcePoint" />
-            <mxPoint x="490" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-28" value="Sc.Co.Base" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="480" y="370" width="100" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="I0ulhQKgloeuxJobAmPa-31" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1.014;exitY=0.885;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-17" target="I0ulhQKgloeuxJobAmPa-28">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="295.2453987730062" y="312" as="sourcePoint" />
-            <mxPoint x="184.01840490797554" y="410" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="440" y="390" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-36" value="BaseApplication" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="274" y="533" width="140" height="52" as="geometry" />
+          <mxGeometry x="274" y="390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-37" value="  " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-36">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
+          <mxGeometry y="26" width="140" height="44" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-38" value="FlaUiSelection" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="460" width="290" height="116" as="geometry" />
+          <mxGeometry x="124" y="560" width="290" height="116" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-40" value="+ PropertyCondition ByAutomationId()&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-38">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
@@ -66,6 +54,37 @@
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-26" value="+ PropertyCondition ByControlType()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-38">
           <mxGeometry y="90" width="290" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I0ulhQKgloeuxJobAmPa-48" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-23" target="I0ulhQKgloeuxJobAmPa-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="490" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I0ulhQKgloeuxJobAmPa-49" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.364;entryY=1.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="307" y="390" as="sourcePoint" />
+            <mxPoint x="316.96000000000004" y="302.98800000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I0ulhQKgloeuxJobAmPa-50" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.964;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-28" target="I0ulhQKgloeuxJobAmPa-17">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="315" y="390" as="sourcePoint" />
+            <mxPoint x="324.96000000000004" y="302.98800000000006" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I0ulhQKgloeuxJobAmPa-51" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.7;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.669;exitY=0.009;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-38" target="I0ulhQKgloeuxJobAmPa-37">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="490" as="sourcePoint" />
+            <mxPoint x="490" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I0ulhQKgloeuxJobAmPa-52" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;entryX=0.695;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.393;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="I0ulhQKgloeuxJobAmPa-38" target="I0ulhQKgloeuxJobAmPa-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="334.97" y="568.028" as="sourcePoint" />
+            <mxPoint x="388" y="471.01199999999994" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
