@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T10:21:00.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="ckxL6FreIPGLz_7RgSmj" version="15.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T10:24:20.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="Rc0Nq7KosoqZCAoPBWaQ" version="15.5.5" type="github" pages="2">
   <diagram id="t39VvCmIAFpxMgid8PSV" name="Class Diagram">
-    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -90,7 +90,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wJ_qKWIjJJLO8eE5LNSV" name="Sequendiagram">
-    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KTHDfryBsMvk7lyklMMe-0" />
         <mxCell id="KTHDfryBsMvk7lyklMMe-1" parent="KTHDfryBsMvk7lyklMMe-0" />
@@ -121,7 +121,7 @@
         <mxCell id="6klo0AG0OtQpHG3wAC0B-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ld_YRHiwmWJkZYtuTfFM-0">
           <mxGeometry x="60" y="94" width="10" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-0" value="Teamcity Unittest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-0" value="Teamcity Unittests" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry x="30" y="10" width="100" height="630" as="geometry" />
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6klo0AG0OtQpHG3wAC0B-0">
@@ -137,10 +137,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-1" value="BaseTestWithUi-CoDatabaseTest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
-          <mxGeometry x="180" y="60" width="100" height="220" as="geometry" />
+          <mxGeometry x="180" y="60" width="100" height="210" as="geometry" />
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6klo0AG0OtQpHG3wAC0B-1">
-          <mxGeometry x="47" y="60" width="10" height="120" as="geometry" />
+          <mxGeometry x="45" y="60" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-14" value="SetupDatabase()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="6klo0AG0OtQpHG3wAC0B-1">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -195,17 +195,17 @@
         </mxCell>
         <mxCell id="6klo0AG0OtQpHG3wAC0B-36" value="&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;neue &lt;br&gt;Ausführung&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="-10" y="101" as="sourcePoint" />
+            <mxPoint x="10" y="101" as="sourcePoint" />
             <mxPoint x="75" y="101" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-3" value="TestDb prüfen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-3" value="TestDb prüfen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.2;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1" target="6klo0AG0OtQpHG3wAC0B-4">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="85" y="120" as="sourcePoint" />
-            <mxPoint x="229.5" y="120" as="targetPoint" />
+            <mxPoint x="220" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6klo0AG0OtQpHG3wAC0B-27" value="prüfen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-27" value="Testfälle ausführen" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.9;exitY=0.558;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="KTHDfryBsMvk7lyklMMe-1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="459" y="459.998" as="sourcePoint" />
             <mxPoint x="730.5" y="459.998" as="targetPoint" />
