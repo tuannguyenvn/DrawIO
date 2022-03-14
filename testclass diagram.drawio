@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T08:24:39.853Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="W7Mxq7Jj4xGoNzjayY2m" version="15.5.5" type="github">
-  <diagram id="t39VvCmIAFpxMgid8PSV" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-03-14T08:58:55.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="gEyPk_-FhpaqJ-MQeWIR" version="15.5.5" type="github" pages="2">
+  <diagram id="t39VvCmIAFpxMgid8PSV" name="Class Diagram">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,6 +85,29 @@
             <mxPoint x="334.97" y="568.028" as="sourcePoint" />
             <mxPoint x="388" y="471.01199999999994" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="wJ_qKWIjJJLO8eE5LNSV" name="Sequendiagram">
+    <mxGraphModel dx="1422" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="KTHDfryBsMvk7lyklMMe-0" />
+        <mxCell id="KTHDfryBsMvk7lyklMMe-1" parent="KTHDfryBsMvk7lyklMMe-0" />
+        <mxCell id="LJwYNqfsMR_tnTX3IXbN-0" value="Concept Office" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry x="520" y="160" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="LJwYNqfsMR_tnTX3IXbN-1" value="&lt;span&gt;FlaUiTestsBase&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry x="360" y="120" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="ld_YRHiwmWJkZYtuTfFM-0" value="&lt;span&gt;VorgangAnlegenTests&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=50;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry x="670" y="190" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-0" value="Teamcity Unittest&lt;br&gt;Ausführung" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry x="30" y="40" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6klo0AG0OtQpHG3wAC0B-1" value="BaseTestWithUi-CoDatabaseTest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="KTHDfryBsMvk7lyklMMe-1">
+          <mxGeometry x="190" y="80" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
