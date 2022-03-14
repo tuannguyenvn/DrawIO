@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-03-14T12:44:54.690Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="u5_1AI7DJ8jFfj8kp_Tt" version="15.5.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-03-14T12:45:58.718Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36" etag="mXuv0xxXtBFYbSpzpLWg" version="15.5.5" type="github" pages="2">
   <diagram id="t39VvCmIAFpxMgid8PSV" name="Class Diagram">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry y="26" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-18" value="FlaUiTestsBase" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="90" width="140" height="78" as="geometry" />
+          <mxGeometry x="240" y="70" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-19" value="+ SetUp()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-18">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -19,10 +19,10 @@
         <mxCell id="I0ulhQKgloeuxJobAmPa-20" value="+ TearDown()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="I0ulhQKgloeuxJobAmPa-18">
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="I0ulhQKgloeuxJobAmPa-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.014;entryY=0.167;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" target="I0ulhQKgloeuxJobAmPa-18">
+        <mxCell id="I0ulhQKgloeuxJobAmPa-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="339" y="250" as="sourcePoint" />
-            <mxPoint x="341.94000000000005" y="130.99" as="targetPoint" />
+            <mxPoint x="310" y="250" as="sourcePoint" />
+            <mxPoint x="310" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="I0ulhQKgloeuxJobAmPa-23" value="VorgangView" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -62,16 +62,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sVZ8nt_r1SRhKpQ2VF02-1" value="BaseApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="370" width="306.5" height="180" as="geometry" />
+          <mxGeometry x="190" y="370" width="310" height="190" as="geometry" />
         </mxCell>
         <mxCell id="sVZ8nt_r1SRhKpQ2VF02-2" value="+ CoPfad: string&#xa;+ StartedApplication: Application&#xa;+ MainProcess: Process" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sVZ8nt_r1SRhKpQ2VF02-1">
-          <mxGeometry y="26" width="306.5" height="54" as="geometry" />
+          <mxGeometry y="26" width="310" height="54" as="geometry" />
         </mxCell>
         <mxCell id="sVZ8nt_r1SRhKpQ2VF02-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="sVZ8nt_r1SRhKpQ2VF02-1">
-          <mxGeometry y="80" width="306.5" height="8" as="geometry" />
+          <mxGeometry y="80" width="310" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="sVZ8nt_r1SRhKpQ2VF02-4" value="+ BaseApplication()&#xa;+ BaseApplication(string processName)&#xa;+ GetMainForm(): Window&#xa;+ ClickOnTab(): void&#xa;+ SaveScreenshot(Exception e): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sVZ8nt_r1SRhKpQ2VF02-1">
-          <mxGeometry y="88" width="306.5" height="92" as="geometry" />
+        <mxCell id="sVZ8nt_r1SRhKpQ2VF02-4" value="+ BaseApplication()&#xa;+ BaseApplication(string processName)&#xa;+ GetMainForm(): Window&#xa;+ ClickOnTab(): void&#xa;+ SaveScreenshot(Exception e): void&#xa;......." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="sVZ8nt_r1SRhKpQ2VF02-1">
+          <mxGeometry y="88" width="310" height="102" as="geometry" />
         </mxCell>
         <mxCell id="ELI2Xk9f64d4ZqfbAvE8-1" value="FlaUI.Core&lt;br&gt;FlaUI.UIA2&lt;br&gt;FlaUI.UIA3" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="430" y="620" width="106.5" height="70" as="geometry" />
